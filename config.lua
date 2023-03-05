@@ -6,18 +6,17 @@ reload "user.config.nvimtree"
  THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
  `lvim` is the global options object
 ]]
-
 -- vim options
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 vim.opt.relativenumber = false
 
 -- general
 lvim.log.level = "info"
 lvim.format_on_save = {
-    enabled = true,
-    pattern = "*.lua",
-    timeout = 1000,
+  enabled = true,
+  pattern = "*.lua",
+  timeout = 1000,
 }
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
@@ -54,7 +53,7 @@ lvim.builtin.treesitter.auto_install = true
 -- -- generic LSP settings <https://www.lunarvim.org/docs/languages#lsp-support>
 
 -- --- disable automatic installation of servers
--- lvim.lsp.installer.setup.automatic_installation = false
+lvim.lsp.installer.setup.automatic_installation = false
 
 -- ---configure a server manually. IMPORTANT: Requires `:LvimCacheReset` to take effect
 -- ---see the full default list `:lua =lvim.lsp.automatic_configuration.skipped_servers`
