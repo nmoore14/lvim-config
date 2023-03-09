@@ -1,7 +1,10 @@
 reload "user.plugins"
 reload "user.lsp"
 reload "user.keymaps"
+reload "user.config.themes"
 reload "user.config.nvimtree"
+reload "user.config.linters"
+reload "user.config.formatters"
 --[[
  THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
  `lvim` is the global options object
@@ -36,7 +39,7 @@ lvim.format_on_save = {
 -- lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 
 -- -- Change theme settings
-lvim.colorscheme = "onenord"
+lvim.colorscheme = "tokyonight-storm"
 
 -- After changing plugin config exit and reopen LunarVim, Run :PackerSync
 lvim.builtin.alpha.active = false
