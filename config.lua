@@ -5,6 +5,8 @@ reload "user.config.themes"
 reload "user.config.nvimtree"
 reload "user.config.linters"
 reload "user.config.formatters"
+reload "user.config.aerial"
+
 --[[
  THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
  `lvim` is the global options object

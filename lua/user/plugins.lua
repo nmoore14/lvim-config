@@ -10,5 +10,6 @@ lvim.plugins = {
       "nvim-telescope/telescope.nvim",
       "neovim/nvim-lspconfig"
     },
-  }
+  },
+  { 'stevearc/aerial.nvim' }
 }
